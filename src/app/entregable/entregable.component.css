@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 600px;
+    margin-left: 600px;
+    border-radius: 500px;
+    flex-direction: column;
+    
+  }
+
+  .centrar-contenido
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mi-boton {
+    background-color: #e41111; /* Color de fondo */
+    color: rgb(15, 232, 203); /* Color del texto */
+    padding: 10px 20px; /* Espacio interno alrededor del contenido */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin-bottom: 30px;
+  }
+  
+  .mi-boton:hover {
+    background-color: #15e4d6; /* Color de fondo al pasar el cursor */
+    color:rgb(241, 8, 8)
+  }
+
+  .mi-input {
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+  }
+
+  .mi-input2 {
+    border-radius: 10px;
+    width:170px;
+    height:30px;
+  }
+
+  .mi-input3 {
+    border-radius:10px;
+    margin-top: 70px;
+    width: 500px;
+    height: 40px;
+  }

@@ -1,0 +1,100 @@
+:root{
+    --cafe: #6c584c;
+    --blanco-crema: #ede0d4;
+    --cafe-oscuro: #403d39;
+    --grey: #252422;
+}
+
+*{
+    font-family: 'Roboto Slab', serif;    
+}
+
+body{
+    background-image: url(../../assets/imagenes/fondoLog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    height: 560px;
+
+}
+
+.titulo{
+    color: #ede0d4;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+
+.slogan{
+    color: #ede0d4;;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-button input{
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 97%;
+    background: #252422;
+    cursor: pointer;
+    transition: .4s;
+    margin-top: 15px;
+    color: #ede0d4;
+}
+
+.inp{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 15px;
+    color: #ede0d4;
+    padding: 0 0 0 45px;
+    background: #403d39;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+::-webkit-input-placeholder{
+    color: #ede0d4;
+}
+
+
+.input-button input:hover{
+    box-shadow: 1px 5px 7px 1px #252422;
+}
+
+label{
+    color: #ede0d4;
+}
+
+.links p{
+    color: #ede0d4;
+    font-size: small;
+}

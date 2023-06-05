@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+
+    <!-- Titulo -->
+    <title>MusicPro</title>
+
+</head>
+
+<body>
+    <!-- Menu -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="../../assets/imagenes/barras.gif" alt="barras">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a routerLink="/inicio" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a routerLink="/instrumentos" class="nav__link">Instrumentos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a routerLink="/inicio" class="nav__link">Contacto</a>
+                    </li>
+                    <li class="nav__item">
+                        <a routerLink="/login" class="nav__link">Login</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Piano -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="../../assets/imagenes/piano.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__data">
+                    <div class="home__header">
+                        <h1 class="home__title">Piano</h1>
+                        <h2 class="home__subtitle">DIGITAL CASIO CDP-S150 BK</h2>
+                    </div>
+
+                    <div class="home__footer">
+                        <h3 class="home__title-description">Descripcion</h3>
+                        <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque ullam libero dicta pariatur animi in iste ipsum perspiciatis et eveniet, quaerat fugit, culpa quia exercitationem rerum unde totam necessitatibus.
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <span class="button--flex">
+                                    <i class="ri-shopping-bag-line button__icon"></i> Comprar
+                                </span>
+                            <span class="home__price">$340.000</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pandereta -->
+        <section class="discount section">
+            <div class="discount__container container grid">
+                <div class="discount__animate">
+                    <h2 class="discount__title">Disfruta la musica con los mejores instrumentos</h2>
+                    <p class="discount__description">Compralo ahora, hasta un 30% de descuento</p>
+                    <a href="#" class="button button--flex">
+                        <i class="ri-shopping-bag-line button__icon"></i> Comprar
+                    </a>
+                </div>
+
+                <img src="../../assets/imagenes/parlante.png" alt="" class="discount__img">
+            </div>
+        </section>
+
+        <!-- Parte inferior de la pagina -->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="../../assets/imagenes/barras.gif" alt="barras">
+                </a>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Instrumentos</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Pianos y Teclados</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Guitarras y Mas cuerdas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Baterias y Vientos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Audio Profesional</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Soporte</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Asistencia en compra</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Devoluciones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Garantía</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Servicio técnico</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                          <i class="ri-send-plane-line button__icon"></i>
+                      </button>
+                    </form>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank" class="footer__copy-link">&#169; MusicPro. Todos los derechos reservados</a>
+            </p>
+        </footer>
+
+        <!-- Click hacia arriba -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+
+        <!-- Click hacia arriba -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        
+
+
+    </main>
+</body>
+</html>

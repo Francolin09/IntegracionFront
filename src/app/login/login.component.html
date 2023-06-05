@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.component.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WEB | Login</title>
+</head>
+<body>
+    
+
+    <!--Contenedor-->
+    <div class="contenedor-formulario contenedor">
+        <!--Imagen Fondo-->
+        <div class="imagen-formulario">
+        </div>
+
+        <!--Caja Login-->
+        <div class="login-box">
+            <form class="container" (ngSubmit)="loguear()">
+                <div class="texto-formulario">
+                    <h2 class="titulo">Bienvenido de Nuevo!</h2>
+                    <p class="slogan">Inicia Sesión con tu cuenta</p>
+                </div>
+                <!--Input email-->
+                <div class="inputBox">
+                    <label for="email">Email  <i class="fa-solid fa-envelope"></i></label>
+                    <input class="inp" placeholder="Ingrese Email..." type="text" id="email" required="required">
+                    <i></i>
+                </div>
+
+                <!--Input pass-->
+                <div class="inputBox">
+                    <label for="email">Contraseña  <i class="fa-solid fa-lock"></i></label>
+                    <input class="inp" placeholder="Ingrese Contraseña..." type="password" id="contrasena" required="required">
+                    <i></i>
+                </div>
+
+                <!--Links-->
+                <div class="links">
+                    <p>Si aun no eres parte de nosotros<a routerLink="/registro"> Registrate</a>...</p>
+                </div>
+
+                <!--Login boton-->
+                <div class="input-button">
+                    <input type="submit" value="Login">
+                    <input type="submit" value="Volver" id="back-button" (click)="volver()">
+                </div>
+            </form>
+        </div>
+    </div>   
+</body>
+</html>
